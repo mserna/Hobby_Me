@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */; };
+		91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB4E257C9A6800746BDD /* TabBarController.swift */; };
+		91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB53257CAA4700746BDD /* ProfileViewController.swift */; };
+		91B0FB5C257CAD2100746BDD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B0FB5B257CAD2100746BDD /* Profile.storyboard */; };
 		BB9E1B95257C2A0900995A51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1B94257C2A0900995A51 /* ContentView.swift */; };
 		BB9E1B97257C2A0900995A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1B96257C2A0900995A51 /* Assets.xcassets */; };
 		BB9E1B9A257C2A0900995A51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1B99257C2A0900995A51 /* Preview Assets.xcassets */; };
 		BB9E1BA5257C2A0900995A51 /* HobbyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BA4257C2A0900995A51 /* HobbyMeTests.swift */; };
 		BB9E1BB0257C2A0A00995A51 /* HobbyMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BAF257C2A0A00995A51 /* HobbyMeUITests.swift */; };
-		BB9E1BC4257C2A3C00995A51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BC3257C2A3C00995A51 /* HomeViewController.swift */; };
 		BB9E1BCD257C2BA200995A51 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1BCC257C2BA200995A51 /* Home.storyboard */; };
 		BB9E1BD2257C2D5700995A51 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BD1257C2D5700995A51 /* CardView.swift */; };
 		BB9E1BE1257C639900995A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BE0257C639900995A51 /* AppDelegate.swift */; };
@@ -38,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		91B0FB4E257C9A6800746BDD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		91B0FB53257CAA4700746BDD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		91B0FB5B257CAD2100746BDD /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		BB9E1B8F257C2A0900995A51 /* HobbyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9E1B94257C2A0900995A51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB9E1B96257C2A0900995A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +56,6 @@
 		BB9E1BAB257C2A0A00995A51 /* HobbyMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9E1BAF257C2A0A00995A51 /* HobbyMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyMeUITests.swift; sourceTree = "<group>"; };
 		BB9E1BB1257C2A0A00995A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB9E1BC3257C2A3C00995A51 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BB9E1BCC257C2BA200995A51 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		BB9E1BD1257C2D5700995A51 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BB9E1BE0257C639900995A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +113,7 @@
 			children = (
 				BB9E1BD6257C2FD100995A51 /* Resources */,
 				BB9E1BCB257C2B9400995A51 /* Storyboards */,
-				BB9E1BC2257C2A1F00995A51 /* Managers */,
+				BB9E1BC2257C2A1F00995A51 /* Coordinators */,
 				BB9E1BC1257C2A1A00995A51 /* Views */,
 				BB9E1BC0257C2A1100995A51 /* ViewControllers */,
 				BB9E1BE0257C639900995A51 /* AppDelegate.swift */,
@@ -146,8 +152,9 @@
 		BB9E1BC0257C2A1100995A51 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BB9E1BC3257C2A3C00995A51 /* HomeViewController.swift */,
+				91B0FB4E257C9A6800746BDD /* TabBarController.swift */,
 				BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */,
+				91B0FB53257CAA4700746BDD /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -161,17 +168,19 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		BB9E1BC2257C2A1F00995A51 /* Managers */ = {
+		BB9E1BC2257C2A1F00995A51 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */,
 			);
-			name = Managers;
+			name = Coordinators;
 			sourceTree = "<group>";
 		};
 		BB9E1BCB257C2B9400995A51 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				BB9E1BCC257C2BA200995A51 /* Home.storyboard */,
+				91B0FB5B257CAD2100746BDD /* Profile.storyboard */,
 				BB9E1BEE257C647300995A51 /* Launch.storyboard */,
 			);
 			path = Storyboards;
@@ -290,6 +299,7 @@
 			files = (
 				BB9E1BCD257C2BA200995A51 /* Home.storyboard in Resources */,
 				BB9E1B9A257C2A0900995A51 /* Preview Assets.xcassets in Resources */,
+				91B0FB5C257CAD2100746BDD /* Profile.storyboard in Resources */,
 				BB9E1B97257C2A0900995A51 /* Assets.xcassets in Resources */,
 				BB9E1BEF257C647300995A51 /* Launch.storyboard in Resources */,
 			);
@@ -316,10 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */,
 				BB9E1B95257C2A0900995A51 /* ContentView.swift in Sources */,
 				BB9E1BD2257C2D5700995A51 /* CardView.swift in Sources */,
 				BB9E1BE1257C639900995A51 /* AppDelegate.swift in Sources */,
-				BB9E1BC4257C2A3C00995A51 /* HomeViewController.swift in Sources */,
+				91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */,
+				91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */,
 				BB9E1C05257C7E2300995A51 /* DiscoverCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
