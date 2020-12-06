@@ -43,6 +43,10 @@ class DiscoverCollectionViewController: UICollectionViewController {
     
         return cell
     }
+    
+    func loadCards() {
+        //TODO: Load Images as containers here
+    }
 
     // MARK: UICollectionViewDelegate
 

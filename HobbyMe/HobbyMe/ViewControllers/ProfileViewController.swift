@@ -19,28 +19,18 @@ struct ContentSection {
     }
 }
 
+protocol ProfileViewControllerDelegate: class {
+    
+}
+
 class ProfileViewController: UIViewController {
     
     private var categories: [ContentSection] = []
-
+    
+    @IBOutlet var table: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Setup background
-        self.view.backgroundColor = .white
-         
-        // Setup main title for application
-        let title = UILabel(frame: CGRect(x: 100, y: 200, width: 200, height: 50))
-        title.center.x = self.view.center.x
-        title.center.y = self.view.center.y - 60.0
-        title.layer.borderColor = UIColor.white.cgColor
-        title.layer.borderWidth = 0.5
-        title.layer.shadowColor = UIColor.lightGray.cgColor
-        title.textAlignment = .center
-        title.textColor = .white
-        title.backgroundColor = .blue
-        title.text = "Test Home Page"
-
-        self.view.addSubview(title)
     }
 }

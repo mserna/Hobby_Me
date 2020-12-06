@@ -5,31 +5,43 @@
 //  Created by HackinMac on 12/5/20.
 //
 
-import Foundation
 import UIKit
+import Foundation
 
 class AppCoordinator: NSObject {
     
-    let rootVC: UINavigationController
-    let discoverVC: DiscoverCollectionViewController
-    let profileVC: ProfileViewController
+    var rootVC: UINavigationController
+    var discoverVC: DiscoverCollectionViewController
+    var profileVC: ProfileViewController
     
     lazy var tabBarController: TabBarController = { [unowned self] in
         let storyboard = UIStoryboard(name: "Home", bundle: Bundle.main)
         let tabBarController = storyboard.instantiateViewController(identifier: "TabBarController") as! TabBarController
         tabBarController.viewControllers = [
-            
+            discoverVC,
+            profileVC
         ]
-        tabBarController.delegate = self
+
+        return tabBarController
+    }()
+    
+    init(window: UIWindow?) {
+        guard let rootViewController = window?.rootViewController as? UINavigationController else {
+            print("Root Controller not UINavigationController")
+            return
+        }
+        
+        rootVC = rootViewController
+        rootVC.view.backgroundColor = UIColor.white
+        rootVC.setNavigationBarHidden(true, animated: false)
+        
+        discoverVC = DiscoverCollectionViewController()
+        profileVC = ProfileViewController()
+        
+        super.init()
     }
     
-    init(window: UIWIndow?) {
-        // Load TabBarViewController and HomeViewController
-        start()
-    }
-    
-    private func start() {
-        let homeVC = HomeViewController()
-        homeVC.loadCards()
-    }
+//    private func start() {
+//        discoverVC.loadCards()
+//    }
 }

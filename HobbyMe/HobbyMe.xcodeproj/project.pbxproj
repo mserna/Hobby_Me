@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D33112C16338479F0FBB213 /* Pods_HobbyMe_HobbyMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD2837CDCA9179184EBF987 /* Pods_HobbyMe_HobbyMeUITests.framework */; };
+		4DE283F82E06390B19D34894 /* Pods_HobbyMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF71CA7CB784CB797592D26C /* Pods_HobbyMeTests.framework */; };
+		8F0ED5F9883DADFC9F3A4D9C /* Pods_HobbyMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D296B2840E766B469C6DD4 /* Pods_HobbyMe.framework */; };
 		91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */; };
 		91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB4E257C9A6800746BDD /* TabBarController.swift */; };
 		91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB53257CAA4700746BDD /* ProfileViewController.swift */; };
 		91B0FB5C257CAD2100746BDD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B0FB5B257CAD2100746BDD /* Profile.storyboard */; };
-		BB9E1B95257C2A0900995A51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1B94257C2A0900995A51 /* ContentView.swift */; };
 		BB9E1B97257C2A0900995A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1B96257C2A0900995A51 /* Assets.xcassets */; };
 		BB9E1B9A257C2A0900995A51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1B99257C2A0900995A51 /* Preview Assets.xcassets */; };
 		BB9E1BA5257C2A0900995A51 /* HobbyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BA4257C2A0900995A51 /* HobbyMeTests.swift */; };
@@ -21,6 +23,8 @@
 		BB9E1BE1257C639900995A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BE0257C639900995A51 /* AppDelegate.swift */; };
 		BB9E1BEF257C647300995A51 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1BEE257C647300995A51 /* Launch.storyboard */; };
 		BB9E1C05257C7E2300995A51 /* DiscoverCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */; };
+		BBC90D31257CB63100D1DF09 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */; };
+		BBC90D32257CB63100D1DF09 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10D296B2840E766B469C6DD4 /* Pods_HobbyMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364E5970E0FFA228F1A2744C /* Pods-HobbyMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe.debug.xcconfig"; path = "Target Support Files/Pods-HobbyMe/Pods-HobbyMe.debug.xcconfig"; sourceTree = "<group>"; };
+		3C8AF4C58F3EF7CFC805CE37 /* Pods-HobbyMe-HobbyMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe-HobbyMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-HobbyMe-HobbyMeUITests/Pods-HobbyMe-HobbyMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FD2837CDCA9179184EBF987 /* Pods_HobbyMe_HobbyMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyMe_HobbyMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B615805DD322BC834DF4A /* Pods-HobbyMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMeTests.debug.xcconfig"; path = "Target Support Files/Pods-HobbyMeTests/Pods-HobbyMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		91B0FB4E257C9A6800746BDD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		91B0FB53257CAA4700746BDD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		91B0FB5B257CAD2100746BDD /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		9BEEC693E3098C19791913A1 /* Pods-HobbyMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMeTests.release.xcconfig"; path = "Target Support Files/Pods-HobbyMeTests/Pods-HobbyMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB9E1B8F257C2A0900995A51 /* HobbyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB9E1B94257C2A0900995A51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB9E1B96257C2A0900995A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9E1B99257C2A0900995A51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB9E1B9B257C2A0900995A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +70,11 @@
 		BB9E1BE0257C639900995A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB9E1BEE257C647300995A51 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewController.swift; sourceTree = "<group>"; };
+		BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		C7824CB5DD7184B64B7B48F4 /* Pods-HobbyMe-HobbyMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe-HobbyMeUITests/Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB8864B44A82B48A5460C296 /* Pods-HobbyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe/Pods-HobbyMe.release.xcconfig"; sourceTree = "<group>"; };
+		EF71CA7CB784CB797592D26C /* Pods_HobbyMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0ED5F9883DADFC9F3A4D9C /* Pods_HobbyMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE283F82E06390B19D34894 /* Pods_HobbyMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D33112C16338479F0FBB213 /* Pods_HobbyMe_HobbyMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EE8EF6B0E4B6A08D5152B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10D296B2840E766B469C6DD4 /* Pods_HobbyMe.framework */,
+				6FD2837CDCA9179184EBF987 /* Pods_HobbyMe_HobbyMeUITests.framework */,
+				EF71CA7CB784CB797592D26C /* Pods_HobbyMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB9E1B86257C2A0900995A51 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +122,8 @@
 				BB9E1BA3257C2A0900995A51 /* HobbyMeTests */,
 				BB9E1BAE257C2A0A00995A51 /* HobbyMeUITests */,
 				BB9E1B90257C2A0900995A51 /* Products */,
+				E83B181C256227475A0C3749 /* Pods */,
+				6EE8EF6B0E4B6A08D5152B6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,8 +191,9 @@
 		BB9E1BC1257C2A1A00995A51 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BB9E1B94257C2A0900995A51 /* ContentView.swift */,
 				BB9E1BD1257C2D5700995A51 /* CardView.swift */,
+				BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */,
+				BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +224,19 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		E83B181C256227475A0C3749 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				364E5970E0FFA228F1A2744C /* Pods-HobbyMe.debug.xcconfig */,
+				CB8864B44A82B48A5460C296 /* Pods-HobbyMe.release.xcconfig */,
+				3C8AF4C58F3EF7CFC805CE37 /* Pods-HobbyMe-HobbyMeUITests.debug.xcconfig */,
+				C7824CB5DD7184B64B7B48F4 /* Pods-HobbyMe-HobbyMeUITests.release.xcconfig */,
+				8A5B615805DD322BC834DF4A /* Pods-HobbyMeTests.debug.xcconfig */,
+				9BEEC693E3098C19791913A1 /* Pods-HobbyMeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB9E1BB4257C2A0A00995A51 /* Build configuration list for PBXNativeTarget "HobbyMe" */;
 			buildPhases = (
+				C9AB0C9026B8C8C6C5AAB309 /* [CP] Check Pods Manifest.lock */,
 				BB9E1B8B257C2A0900995A51 /* Sources */,
 				BB9E1B8C257C2A0900995A51 /* Frameworks */,
 				BB9E1B8D257C2A0900995A51 /* Resources */,
@@ -218,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB9E1BB7257C2A0A00995A51 /* Build configuration list for PBXNativeTarget "HobbyMeTests" */;
 			buildPhases = (
+				D53698A8DAF9074D0B7112B8 /* [CP] Check Pods Manifest.lock */,
 				BB9E1B9C257C2A0900995A51 /* Sources */,
 				BB9E1B9D257C2A0900995A51 /* Frameworks */,
 				BB9E1B9E257C2A0900995A51 /* Resources */,
@@ -236,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB9E1BBA257C2A0A00995A51 /* Build configuration list for PBXNativeTarget "HobbyMeUITests" */;
 			buildPhases = (
+				736026A7D0495DEC3F477F85 /* [CP] Check Pods Manifest.lock */,
 				BB9E1BA7257C2A0A00995A51 /* Sources */,
 				BB9E1BA8257C2A0A00995A51 /* Frameworks */,
 				BB9E1BA9257C2A0A00995A51 /* Resources */,
@@ -302,6 +348,7 @@
 				91B0FB5C257CAD2100746BDD /* Profile.storyboard in Resources */,
 				BB9E1B97257C2A0900995A51 /* Assets.xcassets in Resources */,
 				BB9E1BEF257C647300995A51 /* Launch.storyboard in Resources */,
+				BBC90D32257CB63100D1DF09 /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,14 +368,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		736026A7D0495DEC3F477F85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyMe-HobbyMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9AB0C9026B8C8C6C5AAB309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53698A8DAF9074D0B7112B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HobbyMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB9E1B8B257C2A0900995A51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */,
-				BB9E1B95257C2A0900995A51 /* ContentView.swift in Sources */,
 				BB9E1BD2257C2D5700995A51 /* CardView.swift in Sources */,
+				BBC90D31257CB63100D1DF09 /* ProfileTableViewCell.swift in Sources */,
 				BB9E1BE1257C639900995A51 /* AppDelegate.swift in Sources */,
 				91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */,
 				91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */,
@@ -486,13 +602,14 @@
 		};
 		BB9E1BB5257C2A0A00995A51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364E5970E0FFA228F1A2744C /* Pods-HobbyMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HobbyMe/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MF6426NK34;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HobbyMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -510,13 +627,14 @@
 		};
 		BB9E1BB6257C2A0A00995A51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8864B44A82B48A5460C296 /* Pods-HobbyMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HobbyMe/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MF6426NK34;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HobbyMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -534,6 +652,7 @@
 		};
 		BB9E1BB8257C2A0A00995A51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5B615805DD322BC834DF4A /* Pods-HobbyMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +674,7 @@
 		};
 		BB9E1BB9257C2A0A00995A51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BEEC693E3098C19791913A1 /* Pods-HobbyMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +696,7 @@
 		};
 		BB9E1BBB257C2A0A00995A51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8AF4C58F3EF7CFC805CE37 /* Pods-HobbyMe-HobbyMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -595,6 +716,7 @@
 		};
 		BB9E1BBC257C2A0A00995A51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7824CB5DD7184B64B7B48F4 /* Pods-HobbyMe-HobbyMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
