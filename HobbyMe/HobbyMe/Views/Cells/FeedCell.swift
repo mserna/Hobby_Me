@@ -22,7 +22,7 @@ class FeedCell: BaseCell, UICollectionViewDataSource, UICollectionViewDelegate, 
 //    var videos: [Video]?
     
     var hobbies: [Hobby]?
-    
+    var profile: Profile?
     let cellId = "cellId"
     
 //    func fetchVideos() {
@@ -33,6 +33,12 @@ class FeedCell: BaseCell, UICollectionViewDataSource, UICollectionViewDelegate, 
 //
 //        }
 //    }
+    
+    func fetchProfile() {
+        let prof = ApiManager.shared.fetchProfile()
+        self.profile = prof
+        self.collectionView.reloadData()
+    }
     
     func fetchHobbies() {
         //TODO: Get hobbies from API backend
@@ -45,6 +51,7 @@ class FeedCell: BaseCell, UICollectionViewDataSource, UICollectionViewDelegate, 
         super.setupViews()
         
 //        fetchVideos()
+        fetchProfile()
         fetchHobbies()
         
         backgroundColor = .brown

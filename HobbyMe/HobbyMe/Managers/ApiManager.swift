@@ -95,4 +95,9 @@ class ApiManager: NSObject {
         return activityArray
     }
     
+    func fetchProfile() -> Profile {
+        let profile = Profile(username: "Matthew Serna", profileImageURL: "profile", thumbnailImageName: "login", description: "Hi my name is Matt!")
+        return profile
+    }
+    
 }

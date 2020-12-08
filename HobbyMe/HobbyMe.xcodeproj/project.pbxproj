@@ -48,6 +48,7 @@
 		BB9E1BEF257C647300995A51 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1BEE257C647300995A51 /* Launch.storyboard */; };
 		BB9E1C05257C7E2300995A51 /* DiscoverCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */; };
 		BBC90D31257CB63100D1DF09 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */; };
+		BBD430D6257FEAFE005D38F1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD430D5257FEAFE005D38F1 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewController.swift; sourceTree = "<group>"; };
 		BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		BBD430D5257FEAFE005D38F1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		C7824CB5DD7184B64B7B48F4 /* Pods-HobbyMe-HobbyMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe-HobbyMeUITests/Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB8864B44A82B48A5460C296 /* Pods-HobbyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe/Pods-HobbyMe.release.xcconfig"; sourceTree = "<group>"; };
 		EF71CA7CB784CB797592D26C /* Pods_HobbyMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -234,6 +236,7 @@
 				BB983B77257EB5C3000551BC /* Video.swift */,
 				BB983C11257F5A9E000551BC /* Activity.swift */,
 				BB983C19257F5AE7000551BC /* Group.swift */,
+				BBD430D5257FEAFE005D38F1 /* Profile.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -600,6 +603,7 @@
 				BB983BAA257F1862000551BC /* SubscriptionCell.swift in Sources */,
 				BB983BAB257F1862000551BC /* CustomImageView.swift in Sources */,
 				BB983BAC257F1862000551BC /* VideoLauncher.swift in Sources */,
+				BBD430D6257FEAFE005D38F1 /* Profile.swift in Sources */,
 				BB983BD5257F3338000551BC /* BaseCell.swift in Sources */,
 				BB983BD0257F32FC000551BC /* ProfileCell.swift in Sources */,
 				BB983BDD257F3594000551BC /* ActivityCell.swift in Sources */,

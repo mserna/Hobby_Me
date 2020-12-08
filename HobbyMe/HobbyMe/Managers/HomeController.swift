@@ -10,10 +10,12 @@ import UIKit
 class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
 //    var videos: [Video]?
+    var profile: Profile?
     var hobbies: [Hobby]?
     let cellId = "cellId"
     let discoverCellId = "discoverCellId"
     let activityCellId = "activityCellId"
+    let profileCellId = "profileCellId"
     let titles = ["Home", "Discover", "Activities", "Account"]
     
 //    func fetchVideos() {
@@ -22,6 +24,12 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
 //            self.collectionView?.reloadData()
 //        }
 //    }
+    
+    func fetchProfile() {
+        let prof = ApiManager.shared.fetchProfile()
+        self.profile = prof
+        self.collectionView?.reloadData()
+    }
     
     func fetchHobbies() {
         //TODO: Get hobbies from API backend
@@ -54,7 +62,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         super.viewDidLoad()
         
         setupMenuBar()
-//        fetchVideos()
+        fetchProfile()
         fetchHobbies()
         
         navigationItem.title = "Home"
@@ -88,6 +96,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         collectionView?.register(FeedCell.self, forCellWithReuseIdentifier: cellId)
         collectionView?.register(DiscoverCell.self, forCellWithReuseIdentifier: discoverCellId)
         collectionView?.register(ActivityCell.self, forCellWithReuseIdentifier: activityCellId)
+        collectionView.register(ProfileCell.self, forCellWithReuseIdentifier: profileCellId)
         
         collectionView?.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0)
         collectionView?.scrollIndicatorInsets = UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0)
@@ -171,6 +180,8 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
             identifier = discoverCellId
         } else if indexPath.item == 2 {
             identifier = activityCellId
+        } else if indexPath.item == 3 {
+            identifier = profileCellId
         } else {
             identifier = cellId
         }
