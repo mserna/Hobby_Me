@@ -6,11 +6,10 @@
 //
 
 import UIKit
-import Foundation
 
-class AppCoordinator: NSObject {
+final class AppCoordinator: NSObject {
     
-    var rootVC: UINavigationController
+    let rootVC: UINavigationController
     var discoverVC: DiscoverCollectionViewController
     var profileVC: ProfileViewController
     
@@ -25,23 +24,37 @@ class AppCoordinator: NSObject {
         return tabBarController
     }()
     
+    convenience init(random: Bool = false) {
+        let win = UIWindow(frame: UIScreen.main.bounds)
+        if random {
+            self.init(window: win)
+        } else {
+            self.init(window: win)
+        }
+    }
+    
     init(window: UIWindow?) {
-        guard let rootViewController = window?.rootViewController as? UINavigationController else {
-            print("Root Controller not UINavigationController")
-            return
+        guard let root = window?.rootViewController as? UINavigationController else {
+            preconditionFailure("Root controller not UINavigationController")
         }
         
-        rootVC = rootViewController
-        rootVC.view.backgroundColor = UIColor.white
-        rootVC.setNavigationBarHidden(true, animated: false)
-        
-        discoverVC = DiscoverCollectionViewController()
-        profileVC = ProfileViewController()
-        
+        self.rootVC = root
+        self.rootVC.view.backgroundColor = UIColor.white
+        self.rootVC.setNavigationBarHidden(true, animated: false)
+
+        self.discoverVC = DiscoverCollectionViewController()
+        self.profileVC = ProfileViewController()
+
         super.init()
     }
     
-//    private func start() {
-//        discoverVC.loadCards()
-//    }
+    func start() {
+        discoverVC.loadCards()
+    }
+}
+
+extension AppCoordinator: UITabBarControllerDelegate {
+
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+    }
 }

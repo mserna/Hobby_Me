@@ -13,18 +13,41 @@
 		91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */; };
 		91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB4E257C9A6800746BDD /* TabBarController.swift */; };
 		91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB53257CAA4700746BDD /* ProfileViewController.swift */; };
-		91B0FB5C257CAD2100746BDD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B0FB5B257CAD2100746BDD /* Profile.storyboard */; };
+		BB835A2A257D698700ACD572 /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A29257D698700ACD572 /* TestObject.swift */; };
+		BB835A2F257D781500ACD572 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A2E257D781500ACD572 /* UIViewExt.swift */; };
+		BB835A3D257D792200ACD572 /* CustomTabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A3C257D792200ACD572 /* CustomTabBarButtonView.swift */; };
+		BB983BA1257F1862000551BC /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B75257EB5A6000551BC /* MenuBar.swift */; };
+		BB983BA2257F1862000551BC /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B66257EB44F000551BC /* ApiManager.swift */; };
+		BB983BA3257F1862000551BC /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B6B257EB460000551BC /* SettingsLauncher.swift */; };
+		BB983BA4257F1862000551BC /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B70257EB565000551BC /* HomeController.swift */; };
+		BB983BA5257F1862000551BC /* SettingName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B76257EB5B6000551BC /* SettingName.swift */; };
+		BB983BA6257F1862000551BC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B77257EB5C3000551BC /* Video.swift */; };
+		BB983BA7257F1862000551BC /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B68257EB458000551BC /* FeedCell.swift */; };
+		BB983BA8257F1862000551BC /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B69257EB45B000551BC /* SettingCell.swift */; };
+		BB983BA9257F1862000551BC /* TrendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B6C257EB465000551BC /* TrendingCell.swift */; };
+		BB983BAA257F1862000551BC /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B6A257EB45C000551BC /* SubscriptionCell.swift */; };
+		BB983BAB257F1862000551BC /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B67257EB454000551BC /* CustomImageView.swift */; };
+		BB983BAC257F1862000551BC /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B78257EB5D9000551BC /* VideoLauncher.swift */; };
+		BB983BAD257F1862000551BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B5F257EB401000551BC /* Extensions.swift */; };
+		BB983BB3257F18CB000551BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB983BB2257F18CB000551BC /* Main.storyboard */; };
+		BB983BBD257F190B000551BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983B36257EB362000551BC /* AppDelegate.swift */; };
+		BB983BC2257F19ED000551BC /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983BC1257F19ED000551BC /* VideoCell.swift */; };
+		BB983BD0257F32FC000551BC /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983BCF257F32FC000551BC /* ProfileCell.swift */; };
+		BB983BD5257F3338000551BC /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983BD4257F3338000551BC /* BaseCell.swift */; };
+		BB983BDD257F3594000551BC /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983BDC257F3594000551BC /* ActivityCell.swift */; };
+		BB983BFD257F42C9000551BC /* HobbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983BFC257F42C9000551BC /* HobbyCell.swift */; };
+		BB983C02257F5265000551BC /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983C01257F5265000551BC /* Hobby.swift */; };
+		BB983C09257F5666000551BC /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983C08257F5666000551BC /* DiscoverCell.swift */; };
+		BB983C12257F5A9E000551BC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983C11257F5A9E000551BC /* Activity.swift */; };
+		BB983C1A257F5AE7000551BC /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB983C19257F5AE7000551BC /* Group.swift */; };
 		BB9E1B97257C2A0900995A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1B96257C2A0900995A51 /* Assets.xcassets */; };
-		BB9E1B9A257C2A0900995A51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1B99257C2A0900995A51 /* Preview Assets.xcassets */; };
 		BB9E1BA5257C2A0900995A51 /* HobbyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BA4257C2A0900995A51 /* HobbyMeTests.swift */; };
 		BB9E1BB0257C2A0A00995A51 /* HobbyMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BAF257C2A0A00995A51 /* HobbyMeUITests.swift */; };
-		BB9E1BCD257C2BA200995A51 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1BCC257C2BA200995A51 /* Home.storyboard */; };
 		BB9E1BD2257C2D5700995A51 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BD1257C2D5700995A51 /* CardView.swift */; };
-		BB9E1BE1257C639900995A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BE0257C639900995A51 /* AppDelegate.swift */; };
+		BB9E1BE1257C639900995A51 /* OldAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1BE0257C639900995A51 /* OldAppDelegate.swift */; };
 		BB9E1BEF257C647300995A51 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1BEE257C647300995A51 /* Launch.storyboard */; };
 		BB9E1C05257C7E2300995A51 /* DiscoverCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */; };
 		BBC90D31257CB63100D1DF09 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */; };
-		BBC90D32257CB63100D1DF09 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +78,34 @@
 		91B0FB53257CAA4700746BDD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		91B0FB5B257CAD2100746BDD /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		9BEEC693E3098C19791913A1 /* Pods-HobbyMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMeTests.release.xcconfig"; path = "Target Support Files/Pods-HobbyMeTests/Pods-HobbyMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB835A29257D698700ACD572 /* TestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
+		BB835A2E257D781500ACD572 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		BB835A3C257D792200ACD572 /* CustomTabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarButtonView.swift; sourceTree = "<group>"; };
+		BB835A41257D7B3100ACD572 /* CustomTabBarButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTabBarButtonView.xib; sourceTree = "<group>"; };
+		BB983B36257EB362000551BC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../youtube 2/youtube/AppDelegate.swift"; sourceTree = "<group>"; };
+		BB983B5F257EB401000551BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../../../youtube 2/youtube/Extensions.swift"; sourceTree = "<group>"; };
+		BB983B66257EB44F000551BC /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		BB983B67257EB454000551BC /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		BB983B68257EB458000551BC /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		BB983B69257EB45B000551BC /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		BB983B6A257EB45C000551BC /* SubscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		BB983B6B257EB460000551BC /* SettingsLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
+		BB983B6C257EB465000551BC /* TrendingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCell.swift; sourceTree = "<group>"; };
+		BB983B70257EB565000551BC /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BB983B75257EB5A6000551BC /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		BB983B76257EB5B6000551BC /* SettingName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingName.swift; sourceTree = "<group>"; };
+		BB983B77257EB5C3000551BC /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		BB983B78257EB5D9000551BC /* VideoLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
+		BB983BB2257F18CB000551BC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BB983BC1257F19ED000551BC /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		BB983BCF257F32FC000551BC /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		BB983BD4257F3338000551BC /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		BB983BDC257F3594000551BC /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		BB983BFC257F42C9000551BC /* HobbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCell.swift; sourceTree = "<group>"; };
+		BB983C01257F5265000551BC /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		BB983C08257F5666000551BC /* DiscoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
+		BB983C11257F5A9E000551BC /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		BB983C19257F5AE7000551BC /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		BB9E1B8F257C2A0900995A51 /* HobbyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9E1B96257C2A0900995A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9E1B99257C2A0900995A51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -67,7 +118,7 @@
 		BB9E1BB1257C2A0A00995A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB9E1BCC257C2BA200995A51 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		BB9E1BD1257C2D5700995A51 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		BB9E1BE0257C639900995A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB9E1BE0257C639900995A51 /* OldAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldAppDelegate.swift; sourceTree = "<group>"; };
 		BB9E1BEE257C647300995A51 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionViewController.swift; sourceTree = "<group>"; };
 		BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
@@ -115,6 +166,95 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB835A33257D786F00ACD572 /* CustomTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				BB835A3C257D792200ACD572 /* CustomTabBarButtonView.swift */,
+				BB835A41257D7B3100ACD572 /* CustomTabBarButtonView.xib */,
+			);
+			path = CustomTabBarView;
+			sourceTree = "<group>";
+		};
+		BB983B30257EB29C000551BC /* Old files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1BE0257C639900995A51 /* OldAppDelegate.swift */,
+				BB9E1B98257C2A0900995A51 /* Preview Content */,
+				BB9E1BD6257C2FD100995A51 /* Resources */,
+				BB9E1BCB257C2B9400995A51 /* Storyboards */,
+				BB9E1BC2257C2A1F00995A51 /* Coordinators */,
+				BB9E1BC1257C2A1A00995A51 /* Views */,
+				BB9E1BC0257C2A1100995A51 /* ViewControllers */,
+			);
+			path = "Old files";
+			sourceTree = "<group>";
+		};
+		BB983B5C257EB3E9000551BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB983B5F257EB401000551BC /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB983B5E257EB3F3000551BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB983C07257F563E000551BC /* Cells */,
+				BB983C06257F5625000551BC /* Objects */,
+				BB983B76257EB5B6000551BC /* SettingName.swift */,
+				BB983B67257EB454000551BC /* CustomImageView.swift */,
+				BB983B78257EB5D9000551BC /* VideoLauncher.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB983B65257EB44B000551BC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BB983B66257EB44F000551BC /* ApiManager.swift */,
+				BB983B6B257EB460000551BC /* SettingsLauncher.swift */,
+				BB983B70257EB565000551BC /* HomeController.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BB983B74257EB59F000551BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB983B75257EB5A6000551BC /* MenuBar.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB983C06257F5625000551BC /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BB983C01257F5265000551BC /* Hobby.swift */,
+				BB983B77257EB5C3000551BC /* Video.swift */,
+				BB983C11257F5A9E000551BC /* Activity.swift */,
+				BB983C19257F5AE7000551BC /* Group.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		BB983C07257F563E000551BC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB983B68257EB458000551BC /* FeedCell.swift */,
+				BB983B69257EB45B000551BC /* SettingCell.swift */,
+				BB983B6C257EB465000551BC /* TrendingCell.swift */,
+				BB983B6A257EB45C000551BC /* SubscriptionCell.swift */,
+				BB983BCF257F32FC000551BC /* ProfileCell.swift */,
+				BB983BD4257F3338000551BC /* BaseCell.swift */,
+				BB983BC1257F19ED000551BC /* VideoCell.swift */,
+				BB983BDC257F3594000551BC /* ActivityCell.swift */,
+				BB983BFC257F42C9000551BC /* HobbyCell.swift */,
+				BB983C08257F5666000551BC /* DiscoverCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		BB9E1B86257C2A0900995A51 = {
 			isa = PBXGroup;
 			children = (
@@ -140,14 +280,15 @@
 		BB9E1B91257C2A0900995A51 /* HobbyMe */ = {
 			isa = PBXGroup;
 			children = (
-				BB9E1BD6257C2FD100995A51 /* Resources */,
-				BB9E1BCB257C2B9400995A51 /* Storyboards */,
-				BB9E1BC2257C2A1F00995A51 /* Coordinators */,
-				BB9E1BC1257C2A1A00995A51 /* Views */,
-				BB9E1BC0257C2A1100995A51 /* ViewControllers */,
-				BB9E1BE0257C639900995A51 /* AppDelegate.swift */,
+				BB983B74257EB59F000551BC /* ViewControllers */,
+				BB983B65257EB44B000551BC /* Managers */,
+				BB983B5E257EB3F3000551BC /* Views */,
+				BB983B5C257EB3E9000551BC /* Extensions */,
+				BB983B36257EB362000551BC /* AppDelegate.swift */,
+				BB9E1B96257C2A0900995A51 /* Assets.xcassets */,
 				BB9E1B9B257C2A0900995A51 /* Info.plist */,
-				BB9E1B98257C2A0900995A51 /* Preview Content */,
+				BB983BB2257F18CB000551BC /* Main.storyboard */,
+				BB983B30257EB29C000551BC /* Old files */,
 			);
 			path = HobbyMe;
 			sourceTree = "<group>";
@@ -191,9 +332,11 @@
 		BB9E1BC1257C2A1A00995A51 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BB835A33257D786F00ACD572 /* CustomTabBarView */,
 				BB9E1BD1257C2D5700995A51 /* CardView.swift */,
 				BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */,
 				BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */,
+				BB835A2E257D781500ACD572 /* UIViewExt.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,8 +345,10 @@
 			isa = PBXGroup;
 			children = (
 				91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */,
+				BB835A29257D698700ACD572 /* TestObject.swift */,
 			);
 			name = Coordinators;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		BB9E1BCB257C2B9400995A51 /* Storyboards */ = {
@@ -219,7 +364,6 @@
 		BB9E1BD6257C2FD100995A51 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BB9E1B96257C2A0900995A51 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -343,12 +487,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB9E1BCD257C2BA200995A51 /* Home.storyboard in Resources */,
-				BB9E1B9A257C2A0900995A51 /* Preview Assets.xcassets in Resources */,
-				91B0FB5C257CAD2100746BDD /* Profile.storyboard in Resources */,
+				BB983BB3257F18CB000551BC /* Main.storyboard in Resources */,
 				BB9E1B97257C2A0900995A51 /* Assets.xcassets in Resources */,
 				BB9E1BEF257C647300995A51 /* Launch.storyboard in Resources */,
-				BBC90D32257CB63100D1DF09 /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +583,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB983C1A257F5AE7000551BC /* Group.swift in Sources */,
+				BB983BBD257F190B000551BC /* AppDelegate.swift in Sources */,
+				BB983BA1257F1862000551BC /* MenuBar.swift in Sources */,
+				BB983BA2257F1862000551BC /* ApiManager.swift in Sources */,
+				BB983BFD257F42C9000551BC /* HobbyCell.swift in Sources */,
+				BB983BA3257F1862000551BC /* SettingsLauncher.swift in Sources */,
+				BB983C12257F5A9E000551BC /* Activity.swift in Sources */,
+				BB983BA4257F1862000551BC /* HomeController.swift in Sources */,
+				BB983C02257F5265000551BC /* Hobby.swift in Sources */,
+				BB983BA5257F1862000551BC /* SettingName.swift in Sources */,
+				BB983BA6257F1862000551BC /* Video.swift in Sources */,
+				BB983BA7257F1862000551BC /* FeedCell.swift in Sources */,
+				BB983BA8257F1862000551BC /* SettingCell.swift in Sources */,
+				BB983BA9257F1862000551BC /* TrendingCell.swift in Sources */,
+				BB983BAA257F1862000551BC /* SubscriptionCell.swift in Sources */,
+				BB983BAB257F1862000551BC /* CustomImageView.swift in Sources */,
+				BB983BAC257F1862000551BC /* VideoLauncher.swift in Sources */,
+				BB983BD5257F3338000551BC /* BaseCell.swift in Sources */,
+				BB983BD0257F32FC000551BC /* ProfileCell.swift in Sources */,
+				BB983BDD257F3594000551BC /* ActivityCell.swift in Sources */,
+				BB983BAD257F1862000551BC /* Extensions.swift in Sources */,
+				BB835A2F257D781500ACD572 /* UIViewExt.swift in Sources */,
+				BB835A3D257D792200ACD572 /* CustomTabBarButtonView.swift in Sources */,
 				91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */,
+				BB983C09257F5666000551BC /* DiscoverCell.swift in Sources */,
 				BB9E1BD2257C2D5700995A51 /* CardView.swift in Sources */,
+				BB835A2A257D698700ACD572 /* TestObject.swift in Sources */,
 				BBC90D31257CB63100D1DF09 /* ProfileTableViewCell.swift in Sources */,
-				BB9E1BE1257C639900995A51 /* AppDelegate.swift in Sources */,
+				BB9E1BE1257C639900995A51 /* OldAppDelegate.swift in Sources */,
 				91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */,
+				BB983BC2257F19ED000551BC /* VideoCell.swift in Sources */,
 				91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */,
 				BB9E1C05257C7E2300995A51 /* DiscoverCollectionViewController.swift in Sources */,
 			);
@@ -608,7 +775,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HobbyMe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = HobbyMe/Assets.xcassets;
 				DEVELOPMENT_TEAM = MF6426NK34;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HobbyMe/Info.plist;
@@ -633,7 +800,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HobbyMe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = HobbyMe/Assets.xcassets;
 				DEVELOPMENT_TEAM = MF6426NK34;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HobbyMe/Info.plist;
