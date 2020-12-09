@@ -20,6 +20,7 @@
 		BB81406F25808E7700B40EE9 /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81405E25808E4400B40EE9 /* CalendarPickerViewController.swift */; };
 		BB81407025808E7700B40EE9 /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81405F25808E4400B40EE9 /* CalendarDateCollectionViewCell.swift */; };
 		BB81407125808E7700B40EE9 /* CalendarPickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81406025808E4400B40EE9 /* CalendarPickerHeaderView.swift */; };
+		BB81407625808FF900B40EE9 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81407525808FF900B40EE9 /* ItemDetailViewController.swift */; };
 		BB835A2A257D698700ACD572 /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A29257D698700ACD572 /* TestObject.swift */; };
 		BB835A2F257D781500ACD572 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A2E257D781500ACD572 /* UIViewExt.swift */; };
 		BB835A3D257D792200ACD572 /* CustomTabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A3C257D792200ACD572 /* CustomTabBarButtonView.swift */; };
@@ -94,6 +95,7 @@
 		BB81406225808E4900B40EE9 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		BB81406325808E4900B40EE9 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		BB81406425808E4900B40EE9 /* MonthMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthMetadata.swift; sourceTree = "<group>"; };
+		BB81407525808FF900B40EE9 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailViewController.swift; path = ../../../../../../Downloads/RWCalendarPickerUI/final/RWCalendarPicker/ItemDetailViewController.swift; sourceTree = "<group>"; };
 		BB835A29257D698700ACD572 /* TestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
 		BB835A2E257D781500ACD572 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		BB835A3C257D792200ACD572 /* CustomTabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarButtonView.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 		BB81405425808E0F00B40EE9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BB81407525808FF900B40EE9 /* ItemDetailViewController.swift */,
 				BB81406125808E4900B40EE9 /* Models */,
 				BB81405C25808E4400B40EE9 /* CalendarPicker */,
 			);
@@ -666,6 +669,7 @@
 				BB835A2F257D781500ACD572 /* UIViewExt.swift in Sources */,
 				BB835A3D257D792200ACD572 /* CustomTabBarButtonView.swift in Sources */,
 				91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */,
+				BB81407625808FF900B40EE9 /* ItemDetailViewController.swift in Sources */,
 				BB983C09257F5666000551BC /* DiscoverCell.swift in Sources */,
 				BB9E1BD2257C2D5700995A51 /* CardView.swift in Sources */,
 				BB835A2A257D698700ACD572 /* TestObject.swift in Sources */,

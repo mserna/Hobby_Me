@@ -9,6 +9,9 @@ import Foundation
 import UIKit
 
 class ActivityCell: FeedCell {
+    
+    private lazy var items = ChecklistItem.exampleItems
+    
     var activity: Activity? {
         didSet {
             titleLabel.text = activity?.name
@@ -79,6 +82,13 @@ class ActivityCell: FeedCell {
     }()
     
     var titleLabelHeightConstraint: NSLayoutConstraint?
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard: UIStoryboard = UIStoryboard (name: "Main", bundle: nil)
+        let vc: ItemDetailViewController = storyboard.instantiateViewController(withIdentifier: "listView") as! ItemDetailViewController
+        let currentController = HomeController()
+        currentController.present(vc, animated: false, completion: nil)
+    }
     
     override func setupViews() {
         addSubview(thumbnailImageView)
