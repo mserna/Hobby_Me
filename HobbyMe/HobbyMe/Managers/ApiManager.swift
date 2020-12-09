@@ -88,7 +88,7 @@ class ApiManager: NSObject {
     }
     
     func fetchActivitiesFromURL(urlString: String) -> [Activity]? {
-        let activity = Activity(name: "1v1 match", description: "1v1 tennis match", hobby: Hobby(image: "3", hobbyName: "tennis", difficulty: 6))
+        let activity = Activity(name: "1v1 match", description: "1v1 tennis match", hobby: Hobby(image: "3", hobbyName: "tennis2", difficulty: 6))
         var activityArray: [Activity] = []
         activityArray.append(activity)
         

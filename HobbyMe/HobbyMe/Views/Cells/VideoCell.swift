@@ -17,15 +17,6 @@ class VideoCell: BaseCell {
             
             setupProfileImage()
             
-//            if let channelName = video?.channel?.name, let numberOfViews = video?.numberOfViews {
-//
-//                let numberFormatter = NumberFormatter()
-//                numberFormatter.numberStyle = .decimal
-//
-//                let subtitleText = "\(channelName) • \(numberFormatter.string(from: NSNumber(value: numberOfViews))!) • 2 years ago "
-//                subtitleTextView.text = subtitleText
-//            }
-            
             //measure title text
             if let title = video?.title {
                 let size = CGSize(width: frame.width - 16 - 44 - 8 - 16, height: 1000)

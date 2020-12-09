@@ -49,6 +49,7 @@
 		BB9E1C05257C7E2300995A51 /* DiscoverCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1C04257C7E2300995A51 /* DiscoverCollectionViewController.swift */; };
 		BBC90D31257CB63100D1DF09 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */; };
 		BBD430D6257FEAFE005D38F1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD430D5257FEAFE005D38F1 /* Profile.swift */; };
+		BBD430E4258088DF005D38F1 /* VideoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD430E3258088DF005D38F1 /* VideoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,8 @@
 		BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		BBD430D5257FEAFE005D38F1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BBD430DF25807BED005D38F1 /* Better Mamba Forever Nike.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Better Mamba Forever Nike.mp4"; sourceTree = "<group>"; };
+		BBD430E3258088DF005D38F1 /* VideoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoURL.swift; sourceTree = "<group>"; };
 		C7824CB5DD7184B64B7B48F4 /* Pods-HobbyMe-HobbyMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe-HobbyMeUITests/Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB8864B44A82B48A5460C296 /* Pods-HobbyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe/Pods-HobbyMe.release.xcconfig"; sourceTree = "<group>"; };
 		EF71CA7CB784CB797592D26C /* Pods_HobbyMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HobbyMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,6 +210,7 @@
 				BB983B76257EB5B6000551BC /* SettingName.swift */,
 				BB983B67257EB454000551BC /* CustomImageView.swift */,
 				BB983B78257EB5D9000551BC /* VideoLauncher.swift */,
+				BBD430E3258088DF005D38F1 /* VideoURL.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +292,7 @@
 				BB983B5E257EB3F3000551BC /* Views */,
 				BB983B5C257EB3E9000551BC /* Extensions */,
 				BB983B36257EB362000551BC /* AppDelegate.swift */,
+				BBD430DF25807BED005D38F1 /* Better Mamba Forever Nike.mp4 */,
 				BB9E1B96257C2A0900995A51 /* Assets.xcassets */,
 				BB9E1B9B257C2A0900995A51 /* Info.plist */,
 				BB983BB2257F18CB000551BC /* Main.storyboard */,
@@ -618,6 +623,7 @@
 				BB9E1BE1257C639900995A51 /* OldAppDelegate.swift in Sources */,
 				91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */,
 				BB983BC2257F19ED000551BC /* VideoCell.swift in Sources */,
+				BBD430E4258088DF005D38F1 /* VideoURL.swift in Sources */,
 				91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */,
 				BB9E1C05257C7E2300995A51 /* DiscoverCollectionViewController.swift in Sources */,
 			);

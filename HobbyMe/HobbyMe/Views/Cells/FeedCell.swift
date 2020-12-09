@@ -89,10 +89,26 @@ class FeedCell: BaseCell, UICollectionViewDataSource, UICollectionViewDelegate, 
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let videoLauncher = VideoLauncher()
-//        videoLauncher.showVideoPlayer()
-        print("Selected item \(hobbies?[indexPath.item])")
+        let videoLauncher = VideoLauncher()
+        guard let hobby = hobbies?[indexPath.item].hobbyName else {
+            return
+        }
+        
+        switch hobby {
+        case "basketball":
+            VideoURL.currentHobbyVid = VideoURL.basketball
+            videoLauncher.showVideoPlayer()
+        case "chess":
+            VideoURL.currentHobbyVid = VideoURL.chess
+            videoLauncher.showVideoPlayer()
+        case "tennis":
+            VideoURL.currentHobbyVid = VideoURL.tennis
+            videoLauncher.showVideoPlayer()
+        case "skate":
+            VideoURL.currentHobbyVid = VideoURL.skate
+            videoLauncher.showVideoPlayer()
+        default:
+            return
+        }
     }
-    
-    
 }

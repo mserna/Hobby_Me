@@ -143,8 +143,7 @@ class VideoPlayerView: UIView {
     var player: AVPlayer?
     
     private func setupPlayerView() {
-        //warning: use your own video url here, the bandwidth for google firebase storage will run out as more and more people use this file
-        let urlString = ""
+        let urlString = VideoURL.currentHobbyVid as! String //TODO
         if let url = URL(string: urlString) {
             player = AVPlayer(url: url)
             
@@ -214,7 +213,6 @@ class VideoLauncher: NSObject {
     
     func showVideoPlayer() {
         print("Showing video player animation....")
-        
         if let keyWindow = UIApplication.shared.keyWindow {
             let view = UIView(frame: keyWindow.frame)
             view.backgroundColor = UIColor.white

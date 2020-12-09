@@ -12,7 +12,6 @@ class ActivityCell: FeedCell {
     var activity: Activity? {
         didSet {
             titleLabel.text = activity?.name
-            
             setupThumbnailImage()
             
             //measure title text
@@ -40,7 +39,7 @@ class ActivityCell: FeedCell {
     
     let thumbnailImageView: CustomImageView = {
         let imageView = CustomImageView()
-        imageView.image = UIImage(named: "tennis")
+        imageView.image = UIImage(named: "tennis2")
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         return imageView
@@ -65,6 +64,7 @@ class ActivityCell: FeedCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Tennis match"
+        label.backgroundColor = .systemGreen
         label.numberOfLines = 2
         return label
     }()
@@ -87,14 +87,14 @@ class ActivityCell: FeedCell {
         addSubview(titleLabel)
         addSubview(subtitleTextView)
         
-        addConstraintsWithFormat("H:|-16-[v0]-16-|", views: thumbnailImageView)
-        
-        addConstraintsWithFormat("H:|-16-[v0(44)]", views: userProfileImageView)
-        
-        //vertical constraints
-        addConstraintsWithFormat("V:|-16-[v0]-8-[v1(44)]-16-[v2(1)]|", views: thumbnailImageView, userProfileImageView, separatorView)
-        
+        //Testing
+        addConstraintsWithFormat("H:|-16-[v0(344)]", views: thumbnailImageView)
+        addConstraintsWithFormat("V:|-64-[v0(240)]-16-[v1(1)]|", views: titleLabel, separatorView)
+        addConstraintsWithFormat("V:|-64-[v0(240)]-16-[v1(1)]|", views: thumbnailImageView, separatorView)
         addConstraintsWithFormat("H:|[v0]|", views: separatorView)
+        
+        //top constraint for thumbnailItem
+        addConstraint(NSLayoutConstraint(item: thumbnailImageView, attribute: .top, relatedBy: .equal, toItem: separatorView, attribute: .bottom, multiplier: 1, constant: 16))
         
         //top constraint
         addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .top, relatedBy: .equal, toItem: thumbnailImageView, attribute: .bottom, multiplier: 1, constant: 8))
