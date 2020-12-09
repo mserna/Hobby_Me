@@ -13,6 +13,13 @@
 		91B0FB3F257C96ED00746BDD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB3E257C96ED00746BDD /* AppCoordinator.swift */; };
 		91B0FB4F257C9A6800746BDD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB4E257C9A6800746BDD /* TabBarController.swift */; };
 		91B0FB54257CAA4700746BDD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B0FB53257CAA4700746BDD /* ProfileViewController.swift */; };
+		BB81406B25808E7700B40EE9 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81406225808E4900B40EE9 /* ChecklistItem.swift */; };
+		BB81406C25808E7700B40EE9 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81406325808E4900B40EE9 /* Day.swift */; };
+		BB81406D25808E7700B40EE9 /* MonthMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81406425808E4900B40EE9 /* MonthMetadata.swift */; };
+		BB81406E25808E7700B40EE9 /* CalendarPickerFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81405D25808E4400B40EE9 /* CalendarPickerFooterView.swift */; };
+		BB81406F25808E7700B40EE9 /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81405E25808E4400B40EE9 /* CalendarPickerViewController.swift */; };
+		BB81407025808E7700B40EE9 /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81405F25808E4400B40EE9 /* CalendarDateCollectionViewCell.swift */; };
+		BB81407125808E7700B40EE9 /* CalendarPickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81406025808E4400B40EE9 /* CalendarPickerHeaderView.swift */; };
 		BB835A2A257D698700ACD572 /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A29257D698700ACD572 /* TestObject.swift */; };
 		BB835A2F257D781500ACD572 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A2E257D781500ACD572 /* UIViewExt.swift */; };
 		BB835A3D257D792200ACD572 /* CustomTabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB835A3C257D792200ACD572 /* CustomTabBarButtonView.swift */; };
@@ -80,6 +87,13 @@
 		91B0FB53257CAA4700746BDD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		91B0FB5B257CAD2100746BDD /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		9BEEC693E3098C19791913A1 /* Pods-HobbyMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMeTests.release.xcconfig"; path = "Target Support Files/Pods-HobbyMeTests/Pods-HobbyMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB81405D25808E4400B40EE9 /* CalendarPickerFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerFooterView.swift; sourceTree = "<group>"; };
+		BB81405E25808E4400B40EE9 /* CalendarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerViewController.swift; sourceTree = "<group>"; };
+		BB81405F25808E4400B40EE9 /* CalendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB81406025808E4400B40EE9 /* CalendarPickerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerHeaderView.swift; sourceTree = "<group>"; };
+		BB81406225808E4900B40EE9 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		BB81406325808E4900B40EE9 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		BB81406425808E4900B40EE9 /* MonthMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthMetadata.swift; sourceTree = "<group>"; };
 		BB835A29257D698700ACD572 /* TestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
 		BB835A2E257D781500ACD572 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		BB835A3C257D792200ACD572 /* CustomTabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarButtonView.swift; sourceTree = "<group>"; };
@@ -126,7 +140,6 @@
 		BBC90D2F257CB63100D1DF09 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		BBC90D30257CB63100D1DF09 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		BBD430D5257FEAFE005D38F1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		BBD430DF25807BED005D38F1 /* Better Mamba Forever Nike.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Better Mamba Forever Nike.mp4"; sourceTree = "<group>"; };
 		BBD430E3258088DF005D38F1 /* VideoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoURL.swift; sourceTree = "<group>"; };
 		C7824CB5DD7184B64B7B48F4 /* Pods-HobbyMe-HobbyMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe-HobbyMeUITests/Pods-HobbyMe-HobbyMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB8864B44A82B48A5460C296 /* Pods-HobbyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HobbyMe.release.xcconfig"; path = "Target Support Files/Pods-HobbyMe/Pods-HobbyMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +182,36 @@
 				EF71CA7CB784CB797592D26C /* Pods_HobbyMeTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB81405425808E0F00B40EE9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB81406125808E4900B40EE9 /* Models */,
+				BB81405C25808E4400B40EE9 /* CalendarPicker */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BB81405C25808E4400B40EE9 /* CalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BB81405D25808E4400B40EE9 /* CalendarPickerFooterView.swift */,
+				BB81405E25808E4400B40EE9 /* CalendarPickerViewController.swift */,
+				BB81405F25808E4400B40EE9 /* CalendarDateCollectionViewCell.swift */,
+				BB81406025808E4400B40EE9 /* CalendarPickerHeaderView.swift */,
+			);
+			path = CalendarPicker;
+			sourceTree = "<group>";
+		};
+		BB81406125808E4900B40EE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB81406225808E4900B40EE9 /* ChecklistItem.swift */,
+				BB81406325808E4900B40EE9 /* Day.swift */,
+				BB81406425808E4900B40EE9 /* MonthMetadata.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		BB835A33257D786F00ACD572 /* CustomTabBarView */ = {
@@ -287,12 +330,12 @@
 		BB9E1B91257C2A0900995A51 /* HobbyMe */ = {
 			isa = PBXGroup;
 			children = (
+				BB81405425808E0F00B40EE9 /* Helpers */,
 				BB983B74257EB59F000551BC /* ViewControllers */,
 				BB983B65257EB44B000551BC /* Managers */,
 				BB983B5E257EB3F3000551BC /* Views */,
 				BB983B5C257EB3E9000551BC /* Extensions */,
 				BB983B36257EB362000551BC /* AppDelegate.swift */,
-				BBD430DF25807BED005D38F1 /* Better Mamba Forever Nike.mp4 */,
 				BB9E1B96257C2A0900995A51 /* Assets.xcassets */,
 				BB9E1B9B257C2A0900995A51 /* Info.plist */,
 				BB983BB2257F18CB000551BC /* Main.storyboard */,
@@ -591,6 +634,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB81406B25808E7700B40EE9 /* ChecklistItem.swift in Sources */,
+				BB81406C25808E7700B40EE9 /* Day.swift in Sources */,
+				BB81406D25808E7700B40EE9 /* MonthMetadata.swift in Sources */,
+				BB81406E25808E7700B40EE9 /* CalendarPickerFooterView.swift in Sources */,
+				BB81406F25808E7700B40EE9 /* CalendarPickerViewController.swift in Sources */,
+				BB81407025808E7700B40EE9 /* CalendarDateCollectionViewCell.swift in Sources */,
+				BB81407125808E7700B40EE9 /* CalendarPickerHeaderView.swift in Sources */,
 				BB983C1A257F5AE7000551BC /* Group.swift in Sources */,
 				BB983BBD257F190B000551BC /* AppDelegate.swift in Sources */,
 				BB983BA1257F1862000551BC /* MenuBar.swift in Sources */,
